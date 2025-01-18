@@ -47,7 +47,7 @@ main section{
     justify-content: space-evenly;
     /* margin-left: 450px; */
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
   }
   .navbar > h3{
     color: rgb(19, 19, 19);
