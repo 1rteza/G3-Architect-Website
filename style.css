@@ -28,7 +28,7 @@
     cursor: pointer;
 }
 main section{
-    margin-top: 130px;
+    margin: 130px;
 
 }
 
@@ -189,9 +189,98 @@ ul li {
         text-align: left;
         margin-bottom: 32px;
     }
-    /* .hide{
+
+    /* Love feature section  */
+
+    .love-feature{
+      margin-left: 0;
+    }
+    .love-content{
+      max-width: 585px;
+      max-height: 980px;
+      margin-right: 3.37rem;
+    }
+    .love-title{
+      color: rgb(19, 19, 19);
+      font-family: Work Sans;
+      font-size: 2.8rem;
+      font-weight: 700;
+      line-height: 3.3rem;
+      letter-spacing: 0%;
+      text-align: left;
+      padding-left: 1.125rem;
+      border-left: 5px solid rgb(255, 144, 14);
+    }
+    .love-description{
+      margin-top: 1.4rem;
+      color: rgb(114, 114, 114);
+      font-family: Work Sans;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .card{
+      padding: 1.8rem;
+      margin-top: 1.8rem;
+      margin-bottom: 1.2rem;
+      border-radius: 8px;
+      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+      background: rgb(255, 255, 255);
+    }
+    .card-title{
+      color: rgb(19, 19, 19);
+      font-size: 1.2rem;
+      font-weight: 600;
+      line-height: 1.43rem;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .card-description{
+      color: rgb(114, 114, 114);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .love-img {
+      margin-top: -3.125rem;
+      /* margin-left: -1.7rem; */
+      margin-right: -284px;
+      width: 44.25rem;
+      height: 61.3rem;
+  }
+    .love-img img{
+      max-width: 100%;
+      /* max-height: 900px; */
+    }
+    .experience{
+      width: 14.43rem;
+      /* height: 12.5rem; */
+      color: white;
+      padding: 2.2rem;
+      margin-left: -20px;
+      margin-top: -90px;
+      position: relative;
+      border-radius: 8px;
+      background: rgb(255, 144, 14);
+      text-align: center;
+    }
+    .experience h2{
+      font-size: 3.2rem;
+      font-weight: 700;
+      row-height: 4.08rem;
+    }
+    .experience p{
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+
+    .hide{
         display: none;
-    } */
+    }
 
 
 
@@ -200,9 +289,9 @@ ul li {
 
 
 
-
+/* small devices */
   @media screen and (max-width: 576px) {
-      .navbar, .teams {
+      .navbar, .teams, .love-feature {
           flex-direction: column;
           gap: 30px;
           margin: 10px auto;
@@ -215,7 +304,7 @@ ul li {
         gap: 0px;
      }
      .banner-content h2{
-        font-size: 3rem;
+        font-size: 2.8rem;
      }
      .teams .img-box{
         grid-template-columns: repeat(1, 1fr);
@@ -223,4 +312,41 @@ ul li {
      .feature-content{
         margin-left: 10px;
     }
+    .love-feature{
+      margin: 150px -68px;
+      gap: 1550px;
+    }
+    .love-title{
+      font-size: 2.5rem;
+    }
+    .love-content{
+      max-height: 0;
+    }
+    .love-img{
+      width: 345px;
+    }
+    .experience{
+      position: absolute;
+    }
   }
+
+
+/* medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .navbar, .teams{
+    flex-direction: column;
+    gap: 30px;
+          margin: 10px auto;
+  }
+  .menu{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .teams{
+    flex-direction: column;
+  }
+  .feature-content{
+    margin-left: 10px;
+}
+}
