@@ -334,7 +334,7 @@ ul li {
 /* medium devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .navbar, .teams{
+  .navbar, .teams, .love-feature{
     flex-direction: column;
     gap: 30px;
           margin: 10px auto;
@@ -349,4 +349,20 @@ ul li {
   .feature-content{
     margin-left: 10px;
 }
+  .love-feature{
+    margin: 150px -68px;
+    gap: 1020px;
+  }
+  .love-title{
+    font-size: 2.5rem;
+  }
+  .love-content{
+    max-height: 0;
+  }
+  .love-img{
+    width: 705px;
+  }
+  .experience{
+    position: absolute;
+  }
 }
