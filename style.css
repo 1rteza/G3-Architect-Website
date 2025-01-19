@@ -1,339 +1,369 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .work-sans-body {
-    font-family: "Work Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  /* Shared styles */
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared styles */
 .display-flex{
-    display: flex;
+  display: flex;
 }
 .btn-primary{
-    width: 175px;
-    height: 60px;
-    border-radius: 8px;
-    border: none;
-    background: rgb(255, 144, 14);
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    line-height: 1.4rem;
-    letter-spacing: 0%;
-    text-align: center;
-    cursor: pointer;
+  width: 175px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 144, 14);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
 }
 main section{
-    margin: 130px;
+  margin: 130px;
 
 }
 
-  /* Nav styles */
+/* Nav styles */
 
 
-  /* Header styles */
+/* Header styles */
 
-  .header{
-    max-width: 1536px;
-    background-color: rgba(255, 144, 14, 0.1);
-    padding-top: 50px;
+.header{
+  max-width: 1536px;
+  background-color: rgba(255, 144, 14, 0.1);
+  padding-top: 50px;
+}
+
+.navbar{
+  justify-content: space-evenly;
+  /* margin-left: 450px; */
+  align-items: center;
+  margin-bottom: 65px;
+}
+.navbar > h3{
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  
+}
+/* ul li {
+  list-style: none;
+  width: 82px;
+  padding: 5px;
+  height: 25px;
+  text-align: center;
+  border-radius: 8px;
+} */
+ul li {
+  list-style: none;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* ul li:hover a{
+  background-color: rgb(255, 144, 14);
+  color: white;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+} */
+ul li a{
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  font-family: Work Sans;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.menu{
+  margin-left: 300px;
+}
+.navbar .menu ul{
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.banner{
+  max-width: 1152px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.banner-content{
+  max-width: 855px;
+  margin: 0 auto;
+  text-align: center; 
+}
+.banner-content h2{
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.banner-content p{
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.banner-pic{
+  max-width: 1150px;
+  margin-top: 50px;
+}
+.banner-pic img{
+  width: 100%;
+}
+
+  main{
+      max-width: 1150px;
+      margin: 0 114px;
   }
 
-  .navbar{
-    justify-content: space-evenly;
-    /* margin-left: 450px; */
-    align-items: center;
-    margin-bottom: 65px;
+  .teams{
+      max-width: 1150px;
+      margin-top: 85px;
+      margin-right: 20px;
+      align-items: center;
   }
-  .navbar > h3{
+
+  .teams .img-box{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+  }
+  .feature-content{
+      margin-left: 75px;
+  }
+  .feature-content h3{
+      width: 300px;
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 3.1rem;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 24px;
+  }
+  #quick-list{
+      color: rgb(114, 114, 114);
+  }
+  #features{
+      color: rgb(255, 144, 14);
+  }
+  .feature-content p{
+      width: auto;
+      color: rgb(114, 114, 114);
+      font-family: Work Sans;
+      font-size: .9rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 32px;
+  }
+
+  /* Love feature section  */
+
+  .love-feature{
+    margin-left: 0;
+  }
+  .love-content{
+    max-width: 585px;
+    max-height: 980px;
+    margin-right: 3.37rem;
+  }
+  .love-title{
     color: rgb(19, 19, 19);
     font-family: Work Sans;
     font-size: 2.8rem;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 3.3rem;
     letter-spacing: 0%;
-    text-align: center;
-    
+    text-align: left;
+    padding-left: 1.125rem;
+    border-left: 5px solid rgb(255, 144, 14);
   }
-  /* ul li {
-    list-style: none;
-    width: 82px;
-    padding: 5px;
-    height: 25px;
-    text-align: center;
-    border-radius: 8px;
-} */
-ul li {
-    list-style: none;
-    padding: 5px 10px;
-    text-align: center;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
-
-  /* ul li:hover a{
-    background-color: rgb(255, 144, 14);
-    color: white;
-    font-family: Work Sans;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-  } */
-  ul li a{
-    text-decoration: none;
-    color: rgb(66, 66, 66);
-    font-family: Work Sans;
-    font-size: .9rem;
-    font-weight: 500;
-    line-height: 1.4rem;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  .menu{
-    margin-left: 300px;
-  }
-  .navbar .menu ul{
-    justify-content: space-between;
-    gap: 40px;
-  }
-
-  .banner{
-    max-width: 1152px;
-    margin: 0 auto;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .banner-content{
-    max-width: 855px;
-    margin: 0 auto;
-    text-align: center; 
-  }
-  .banner-content h2{
-    color: rgb(19, 19, 19);
-    font-family: Work Sans;
-    font-size: 3.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .banner-content p{
+  .love-description{
+    margin-top: 1.4rem;
     color: rgb(114, 114, 114);
     font-family: Work Sans;
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
     letter-spacing: 0%;
+    text-align: left;
+  }
+  .card{
+    padding: 1.8rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+  }
+  .card-title{
+    color: rgb(19, 19, 19);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.43rem;
+    letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 32px;
   }
-  .banner-pic{
+  .card-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .love-img {
+    margin-top: -3.125rem;
+    /* margin-left: -1.7rem; */
+    margin-right: -284px;
+    width: 44.25rem;
+    height: 61.3rem;
+}
+  .love-img img{
+    max-width: 100%;
+    /* max-height: 900px; */
+  }
+  .experience{
+    width: 14.43rem;
+    /* height: 12.5rem; */
+    color: white;
+    padding: 2.2rem;
+    margin-left: -20px;
+    margin-top: -90px;
+    position: relative;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    text-align: center;
+  }
+  .experience h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+    row-height: 4.08rem;
+  }
+  .experience p{
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+
+  .facts{
+    margin: 130px 0;
+  }
+  .facts-text .facts-title{
+    color: rgb(19, 19, 19);
+    font-size: 2.81rem;
+    font-weight: 700;
+    line-height: 3.3rem;
+    letter-spacing: 0%;
+    margin-bottom: 1.8rem;
+  }
+  .facts-text .facts-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.62rem;
+    letter-spacing: 0%;
+    margin-bottom: 6.25rem;
+  }
+  .card-box{
+    max-width: 72rem;
+    gap: 90px;
+    margin-left: 0.2rem;
+  }
+  .fact-card-box{
+    text-align: center;
+    width: 280px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 45px;
+  }
+  .fact-card-box .number{
+    color: rgb(66, 66, 66);
+    font-size: 2.18rem;
+    font-weight: 600;
+    line-height: 3.3rem;
+    letter-spacing: 0%;
+  }
+  .card > .card-title{
+    max-width: 290px;
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.68rem;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 9.8rem;
+  }
+
+  .sponsor{
+    margin: 0;
     max-width: 1150px;
-    margin-top: 50px;
   }
-  .banner-pic img{
-    width: 100%;
+  .sponsor .sponsor-content > h3{
+    color: rgb(19, 19, 19);
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 3.3rem;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 1.7rem;
+  }
+  .sponsor-content> p{
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 2.9rem;
+  }
+  .sponsor-box{
+    gap: 7.6rem;
+  }
+  .sponsor-box img{
+    width: 9.16rem;
+    filter: grayscale(100%);
   }
 
-    main{
-        max-width: 1150px;
-        margin: 0 114px;
-    }
 
-    .teams{
-        max-width: 1150px;
-        margin-top: 85px;
-        margin-right: 20px;
-        align-items: center;
-    }
-
-    .teams .img-box{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-    .feature-content{
-        margin-left: 75px;
-    }
-    .feature-content h3{
-        width: 300px;
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 3.1rem;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-bottom: 24px;
-    }
-    #quick-list{
-        color: rgb(114, 114, 114);
-    }
-    #features{
-        color: rgb(255, 144, 14);
-    }
-    .feature-content p{
-        width: auto;
-        color: rgb(114, 114, 114);
-        font-family: Work Sans;
-        font-size: .9rem;
-        font-weight: 400;
-        line-height: 1.5rem;
-        letter-spacing: 0%;
-        text-align: left;
-        margin-bottom: 32px;
-    }
-
-    /* Love feature section  */
-
-    .love-feature{
-      margin-left: 0;
-    }
-    .love-content{
-      max-width: 585px;
-      max-height: 980px;
-      margin-right: 3.37rem;
-    }
-    .love-title{
-      color: rgb(19, 19, 19);
-      font-family: Work Sans;
-      font-size: 2.8rem;
-      font-weight: 700;
-      line-height: 3.3rem;
-      letter-spacing: 0%;
-      text-align: left;
-      padding-left: 1.125rem;
-      border-left: 5px solid rgb(255, 144, 14);
-    }
-    .love-description{
-      margin-top: 1.4rem;
-      color: rgb(114, 114, 114);
-      font-family: Work Sans;
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5rem;
-      letter-spacing: 0%;
-      text-align: left;
-    }
-    .card{
-      padding: 1.8rem;
-      margin-top: 1.8rem;
-      margin-bottom: 1.2rem;
-      border-radius: 8px;
-      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-      background: rgb(255, 255, 255);
-    }
-    .card-title{
-      color: rgb(19, 19, 19);
-      font-size: 1.2rem;
-      font-weight: 600;
-      line-height: 1.43rem;
-      letter-spacing: 0%;
-      text-align: center;
-    }
-    .card-description{
-      color: rgb(114, 114, 114);
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5rem;
-      letter-spacing: 0%;
-      text-align: left;
-    }
-    .love-img {
-      margin-top: -3.125rem;
-      /* margin-left: -1.7rem; */
-      margin-right: -284px;
-      width: 44.25rem;
-      height: 61.3rem;
+  .hide{
+      display: none;
   }
-    .love-img img{
-      max-width: 100%;
-      /* max-height: 900px; */
-    }
-    .experience{
-      width: 14.43rem;
-      /* height: 12.5rem; */
-      color: white;
-      padding: 2.2rem;
-      margin-left: -20px;
-      margin-top: -90px;
-      position: relative;
-      border-radius: 8px;
-      background: rgb(255, 144, 14);
-      text-align: center;
-    }
-    .experience h2{
-      font-size: 3.2rem;
-      font-weight: 700;
-      row-height: 4.08rem;
-    }
-    .experience p{
-      font-size: 1.6rem;
-      font-weight: 500;
-    }
-
-
-    .facts{
-      margin: 130px 0;
-    }
-    .facts-text .facts-title{
-      color: rgb(19, 19, 19);
-      font-size: 2.81rem;
-      font-weight: 700;
-      line-height: 3.3rem;
-      letter-spacing: 0%;
-      margin-bottom: 1.8rem;
-    }
-    .facts-text .facts-description{
-      color: rgb(114, 114, 114);
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.62rem;
-      letter-spacing: 0%;
-      margin-bottom: 6.25rem;
-    }
-    .card-box{
-      max-width: 72rem;
-      gap: 90px;
-      margin-left: 0.2rem;
-    }
-    .fact-card-box{
-      text-align: center;
-      width: 280px;
-      box-sizing: border-box;
-      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-      border: 1px solid rgb(255, 144, 14);
-      border-radius: 8px;
-      padding: 45px;
-    }
-    .fact-card-box .number{
-      color: rgb(66, 66, 66);
-      font-size: 2.18rem;
-      font-weight: 600;
-      line-height: 3.3rem;
-      letter-spacing: 0%;
-    }
-    .card > .card-title{
-      max-width: 290px;
-      color: rgb(19, 19, 19);
-      font-size: 1.25rem;
-      font-weight: 600;
-      line-height: 1.68rem;
-      letter-spacing: 0%;
-      text-align: left;
-      width: 9.8rem;
-    }
-
-
-    .hide{
-        display: none;
-    }
 
 
 
@@ -343,94 +373,128 @@ ul li {
 
 
 /* small devices */
-  @media screen and (max-width: 576px) {
-      .navbar, .teams, .love-feature, .card-box {
-          flex-direction: column;
-          gap: 30px;
-          margin: 10px auto;
-      }
-     .menu{
-        margin-left: 0px;
-        margin-top: 20px;
-     }
-     .navbar .menu> ul{
-        gap: 0px;
-     }
-     .banner-content h2{
-        font-size: 2.8rem;
-     }
-     .teams .img-box{
-        grid-template-columns: repeat(1, 1fr);
-     }
-     .feature-content{
-        margin-left: 10px;
+@media screen and (max-width: 576px) {
+    .navbar, .teams, .love-feature, .card-box {
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px auto;
     }
-    .love-feature{
-      margin: 150px -68px;
-      gap: 1550px;
-    }
-    .love-title{
-      font-size: 2.5rem;
-    }
-    .love-content{
-      max-height: 0;
-    }
-    .love-img{
-      width: 327px;
-      /* margin-top: 50px; */
-    }
-    .experience{
-      position: absolute;
-    }
+   .menu{
+      margin-left: 0px;
+      margin-top: 20px;
+   }
+   .navbar .menu> ul{
+      gap: 0px;
+   }
+   .banner-content h2{
+      font-size: 2.8rem;
+   }
+   .teams .img-box{
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .feature-content{
+      margin-left: 10px;
+  }
+  .card {
+    padding: 1.8rem;
+    margin-left: -11px;
+    width: 283px;
+  }
+  .love-feature{
+    margin: 150px -68px;
+    gap: 1550px;
+  }
+  .love-title {
+    font-size: 2.4rem;
+    width: 266px;
+}
+.love-description {
+  margin-top: 1.4rem;
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: .9rem;
+  font-weight: 400;
+  width: 321px;
+  line-height: 1.5rem;
+  letter-spacing: 0%;
+  text-align: left;
+}
+  .love-content{
+    max-height: 0;
+  }
+  .love-img{
+    width: 327px;
+    /* margin-top: 50px; */
+  }
+  .experience{
+    position: absolute;
+  }
 
-    .facts-text{
-      margin-top: -515px;
-      margin-left: -68px;
-  }
-  .facts-text .facts-description{
-    margin-bottom: 3.25rem;
-  }
-  .fact-card-box {
-    text-align: center;
-    margin-left: -67px;
-  }
+  .facts-text{
+    margin-top: -515px;
+    margin-left: -68px;
+}
+.facts-text .facts-description{
+  margin-bottom: 3.25rem;
+}
+.fact-card-box {
+  text-align: center;
+  margin-left: -67px;
+}
+.sponsor-content > h3 {
+  color: rgb(19, 19, 19);
+  width: 276px;
+  margin-left: -65px;
+}
+.sponsor-content> p {
+  width: 319px;
+  margin-left: -86px;
+}
+.sponsor-box {
+  gap: 11px;
+  margin-left: -109px;
+}
+.sponsor-box img {
+  width: 4rem;
+}
+
 
 
 /* medium devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .navbar, .teams, .love-feature{
-    flex-direction: column;
-    gap: 30px;
-          margin: 10px auto;
-  }
-  .menu{
-    margin-left: 0;
-    margin-top: 30px;
-  }
-  .teams{
-    flex-direction: column;
-  }
-  .feature-content{
-    margin-left: 10px;
-  }
-  .love-feature{
-    margin: 150px -68px;
-    gap: 1020px;
-  }
-  .love-title{
-    font-size: 2.5rem;
-  }
-  .love-content{
-    max-height: 0;
-  }
-  .love-img{
-    width: 705px;
-  }
-  .experience{
-    position: absolute;
-  }
-  .facts-text{
-    margin-top: 440px;
-  }
+.navbar, .teams, .love-feature{
+  flex-direction: column;
+  gap: 30px;
+        margin: 10px auto;
+}
+.menu{
+  margin-left: 0;
+  margin-top: 30px;
+}
+.teams{
+  flex-direction: column;
+}
+.feature-content{
+  margin-left: 10px;
+}
+.love-feature{
+  margin: 150px -68px;
+  gap: 1020px;
+}
+.love-title{
+  font-size: 2.5rem;
+}
+.love-content{
+  max-height: 0;
+}
+.love-img{
+  width: 705px;
+}
+.experience{
+  position: absolute;
+}
+.facts-text{
+  margin-top: 440px;
+}
 }
