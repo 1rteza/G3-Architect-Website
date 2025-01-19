@@ -288,6 +288,7 @@ ul li a{
     font-weight: 700;
     line-height: 3.3rem;
     letter-spacing: 0%;
+    margin-top: 10rem;
     margin-bottom: 1.8rem;
   }
   .facts-text .facts-description{
@@ -296,12 +297,13 @@ ul li a{
     font-weight: 400;
     line-height: 1.62rem;
     letter-spacing: 0%;
-    margin-bottom: 6.25rem;
+    margin-bottom: 3.25rem;
   }
   .card-box{
     max-width: 72rem;
     gap: 90px;
-    margin-left: 0.2rem;
+    margin-left: 3.2rem;
+    margin-right: -3.3rem;
   }
   .fact-card-box{
     text-align: center;
@@ -341,32 +343,44 @@ ul li a{
     line-height: 3.3rem;
     letter-spacing: 0%;
     text-align: center;
+    margin-left: 73px;
     margin-bottom: 1.7rem;
   }
   .sponsor-content> p{
     color: rgb(114, 114, 114);
     font-size: 16px;
+    width: 519px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 2.9rem;
+    margin-left: 354px;
   }
   .sponsor-box{
     gap: 7.6rem;
+    margin-bottom: 141px;
   }
   .sponsor-box img{
     width: 9.16rem;
     filter: grayscale(100%);
+  }
+  .footer{
+    /* max-width: 1150px; */
+    width: 503px;
+    margin-bottom: 85px;
+    margin-left: 76px;
+    text-align: center;
+    height: 23px;
+    padding: 38px 410px;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
   }
 
 
   .hide{
       display: none;
   }
-
-
-
 
 
 
@@ -379,20 +393,20 @@ ul li a{
         gap: 30px;
         margin: 10px auto;
     }
-   .menu{
+  .menu{
       margin-left: 0px;
       margin-top: 20px;
-   }
-   .navbar .menu> ul{
+  }
+  .navbar .menu> ul{
       gap: 0px;
-   }
-   .banner-content h2{
+  }
+  .banner-content h2{
       font-size: 2.8rem;
-   }
-   .teams .img-box{
+  }
+  .teams .img-box{
       grid-template-columns: repeat(1, 1fr);
-   }
-   .feature-content{
+  }
+  .feature-content{
       margin-left: 10px;
   }
   .card {
@@ -439,62 +453,73 @@ ul li a{
 }
 .fact-card-box {
   text-align: center;
-  margin-left: -67px;
+  margin-left: -43px;
 }
-.sponsor-content > h3 {
+.sponsor .sponsor-content > h3 {
   color: rgb(19, 19, 19);
   width: 276px;
-  margin-left: -65px;
+  margin-left: -41px;
 }
 .sponsor-content> p {
   width: 319px;
-  margin-left: -86px;
+  margin-left: -59px;
 }
 .sponsor-box {
   gap: 11px;
-  margin-left: -109px;
+  margin-left: -85px;
+  margin-bottom: 81px;
 }
 .sponsor-box img {
   width: 4rem;
 }
 
+.footer{
+  height: 13px;
+  width: 383px;
+  padding: 10px;
+  margin-left: 10px
+}
+.footer p{
+  font-size: 12px;
+}
+}
 
 
 /* medium devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
 .navbar, .teams, .love-feature{
-  flex-direction: column;
-  gap: 30px;
-        margin: 10px auto;
+flex-direction: column;
+gap: 30px;
+      margin: 10px auto;
 }
 .menu{
-  margin-left: 0;
-  margin-top: 30px;
+margin-left: 0;
+margin-top: 30px;
 }
 .teams{
-  flex-direction: column;
+flex-direction: column;
 }
 .feature-content{
-  margin-left: 10px;
+margin-left: 10px;
 }
 .love-feature{
-  margin: 150px -68px;
-  gap: 1020px;
+margin: 150px -68px;
+gap: 1020px;
 }
 .love-title{
-  font-size: 2.5rem;
+font-size: 2.5rem;
 }
 .love-content{
-  max-height: 0;
+max-height: 0;
 }
 .love-img{
-  width: 705px;
+width: 705px;
 }
 .experience{
-  position: absolute;
+position: absolute;
 }
 .facts-text{
-  margin-top: 440px;
+margin-top: 440px;
 }
 }
